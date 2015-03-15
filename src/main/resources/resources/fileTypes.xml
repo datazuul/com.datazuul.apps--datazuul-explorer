@@ -1,0 +1,29 @@
+<filetypes>
+<ext name='txt' label='Text file' icon='images/bigTxtFile.gif' qview='TextQuickView' url='c:\jos\odiseo\textpad\bin\textpad.jar' class=''/>
+<ext name='zip' label='Zip file' icon='images/bigZipFile.gif' qview='' url='' class=''/>
+<ext name='jar' label='Jar file' icon='images/bigJarFile.gif' qview='' url='' class=''/>
+<ext name='gif' label='Gif file' icon='images/bigGifFile.gif' qview='ImageQuickView' url='' class=''/>
+
+<ext name='png' label='PNG file' icon='images/bigPNGFile.gif' qview='ImageQuickView' url='' class=''/>
+<ext name='jpg' label='JPG file' icon='images/bigJpgFile.gif' qview='ImageQuickView' url='' class=''/>
+<ext name='java' label='Java file' icon='images/bigJavaFile.gif' qview='TextQuickView' url='' class=''/>
+<ext name='html' label='Internet file' icon='images/bigHTMLFile.gif' qview='HtmlQuickView' url='' class=''/>
+<ext name='htm' label='Internet file' icon='images/bigHTMLFile.gif' qview='HtmlQuickView' url='' class=''/>
+<ext name='xml' label='XML file' icon='images/bigXMLFile.gif' qview='TextQuickView' url='' class=''/>
+<ext name='class' label='Java Class file' icon='images/bigClassFile.gif' url='' class=''/>
+
+<ext name='bmp' label='Bmp file' icon='images/bigBMPFile.gif' qview='' url='' class=''/>
+<ext name='ttf' label='Ttf file' icon='images/bigTTFFile.gif' qview='' url='' class=''/>
+<ext name='doc' label='Doc file' icon='images/bigDOCFile.gif' qview='' url='' class=''/>
+<ext name='rtf' label='Rtf file' icon='images/bigDOCFile.gif' qview='' url='' class=''/>
+<ext name='dll' label='Dll file' icon='images/bigDLLFile.gif' qview='' url='' class=''/>
+<ext name='mail' label='Mail file' icon='images/bigMAILFile.gif' qview='' url='' class=''/>
+<ext name='wav' label='Sound(wav) file' icon='images/bigWAVFile.gif' qview='' url='' class=''/>
+<ext name='au' label='Sound (au) file' icon='images/bigAUFile.gif' qview='' url='' class=''/>
+<ext name='asp' label='ASP file' icon='images/bigASPFile.gif' qview='' url='' class=''/>
+
+<ext name='properties' label='Properties file' icon='images/bigPropFile.gif' qview='TextQuickView' url='' class=''/>
+<ext name='prop' label='Properties file' icon='images/bigPropFile.gif' qview='TextQuickView' url='' class=''/>
+<ext name='css' label='Cascade Style Sheet file' icon='images/bigTxtFile.gif' qview='TextQuickView' url='' class=''/>
+<ext name='pdf' label='Postscrpt data format' icon='images/bigPDFFile.gif' qview='' url='' class=''/>
+</filetypes>

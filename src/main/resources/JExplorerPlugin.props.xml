@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.JExplorerPlugin.name" value="JExplorer" />
+  <property name="plugin.JExplorerPlugin.author" value="Inigo Gonzalez" />
+  <property name="plugin.JExplorerPlugin.version" value="1.0" />
+
+  <!-- CREATE PROPERTIES LIKE THIS -->
+  <property name="jexplorer.label" value="JExplorer..." />  
+</xproperties>

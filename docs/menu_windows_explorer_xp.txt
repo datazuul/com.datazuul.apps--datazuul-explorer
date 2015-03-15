@@ -1,0 +1,26 @@
+Menu  Windows Explorer XP
+=========================
+
+- \Datei
+
+Folder:
+-- Neu
+-- ---
+-- Verknüpfung erstellen
+-- Löschen
+-- Umbenennen
+-- Eigenschaften
+-- ---
+-- <Verzeichnisname>
+-- ---
+-- Schließen
+
+- \Bearbeiten
+
+- \Ansicht
+
+- \Favoriten
+
+- E\xtras
+
+- \?

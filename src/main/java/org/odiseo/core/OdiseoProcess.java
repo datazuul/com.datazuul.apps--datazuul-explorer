@@ -1,6 +1,6 @@
 /*
  * OdiseoProcess.java - 
- * Copyright (C) 2000-2001 Iñigo González
+ * Copyright (C) 2000-2001 Inigo Gonzalez
  * sensei@hispavista.com
  * http://www.geocities.com/innigo.geo
  *

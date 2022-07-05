@@ -1,6 +1,6 @@
 /**
  * FileComponent.java - 
- * Copyright (C) 2000 Iñigo González Rodríguez
+ * Copyright (C) 2000 Inigo Gonzalez
  * sensei@hispavista.com
  * http://www.geocities.com/innigo.geo
  *
@@ -27,7 +27,7 @@ import java.io.File;
 
 /**
  * Esta clase es la clase basa para todos los componentes del Jexplorer. Es decir, tanto
- * <i>LocationBar</i> como <i>FileList</i> como <i>FileTree</i> extenderán esta clase.
+ * <i>LocationBar</i> como <i>FileList</i> como <i>FileTree</i> extenderon esta clase.
  * FileComponent is the base class for jexplorer file components. <i>LocationBar</i>, <i>
  * FileList</i>, <i>FolderList</i> extend this class.
  * @see LocationBar
@@ -42,7 +42,7 @@ public class FileComponent extends JPanel{ //JComponent{
 	public boolean activateListener = true;
 
 	/**
-	 * Lista de <i>Listeners</i> que recibirán los eventos que se produzcan en el FileTree.
+	 * Lista de <i>Listeners</i> que recibiron los eventos que se produzcan en el FileTree.
 	 * @see FileListener
 	 */
 	private Vector fileListeners = new Vector();
@@ -121,8 +121,8 @@ public class FileComponent extends JPanel{ //JComponent{
 	}
 
 	/**
-	 * Añade un nuevo <i>Listener<i> a la lista.
-	 * @param fileListener Este <i>Listener<i> recibirá los eventos del control FileTree.
+	 * Aï¿½ade un nuevo <i>Listener<i> a la lista.
+	 * @param fileListener Este <i>Listener<i> recibiro los eventos del control FileTree.
 	 * @see FileListener
 	 */
 	public void addFileListener(FileListener fileListener){

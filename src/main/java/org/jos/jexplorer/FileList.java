@@ -1,6 +1,6 @@
 /*
  * FileList - This control shows the content of a folder or Zip/Jar file.
- * Copyright (C) 2000-2001 Iñigo González
+ * Copyright (C) 2000-2001 Inigo Gonzalez
  * sensei@hispavista.com
  * http://www.geocities.com/innigo.geo
  *
@@ -62,7 +62,7 @@ public class FileList extends FileComponent implements FileListener, Accessible,
 	public final static int ORDER_BY_DATE = 2;
 
 	/**
-	 * La carpeta de inicio por defecto. En un futuro se deberá recogerá de un fichero de propiedades o desaparecer.
+	 * La carpeta de inicio por defecto. En un futuro se deberï¿½ recogerï¿½ de un fichero de propiedades o desaparecer.
 	 * The initial folder by default.
 	 */
 	public final static File DEFAULT_FILE = new File("C:\\"); //new File("\\");
@@ -78,7 +78,7 @@ public class FileList extends FileComponent implements FileListener, Accessible,
 	private int viewType;
 
 	/**
-	 * Tipo de ordenación con la que se muestran los ficheros. Sus valores posibles son 
+	 * Tipo de ordenaciï¿½n con la que se muestran los ficheros. Sus valores posibles son 
 	 * ORDER_BY_NAME (por defecto), ORDER_BY_SIZE u ORDER_BY_DATE.
 	 */
 	private int orderBy = ORDER_BY_NAME;
@@ -95,12 +95,12 @@ public class FileList extends FileComponent implements FileListener, Accessible,
 	private String filter = "";
 
 	/**
-	 * Mantiene el camino que se ha seguido. Lo utiliza la función goBack().
+	 * Mantiene el camino que se ha seguido. Lo utiliza la funciï¿½n goBack().
 	 */
 	private Stack backStack = new Stack();
 
 	/**
-	 * Mantiene el camino que se ha seguido. Lo utiliza la función goForward().
+	 * Mantiene el camino que se ha seguido. Lo utiliza la funciï¿½n goForward().
 	 */
 	private Stack forwardStack = new Stack();
 
@@ -110,7 +110,7 @@ public class FileList extends FileComponent implements FileListener, Accessible,
 	private SelectionModel selectionModel = new SelectionModel();
 
 	/**
-	 * Panel donde se visualizarán los ficheros.
+	 * Panel donde se visualizarï¿½n los ficheros.
 	 */
 	private JPanel main = new JPanel();
 
@@ -139,7 +139,7 @@ public class FileList extends FileComponent implements FileListener, Accessible,
 
 	/**
 	 * Crea un FileList con los valores por defecto. Estos son: la carpeta
-	 * raíz del sistema y la vista de Iconos grandes.
+	 * raï¿½z del sistema y la vista de Iconos grandes.
 	 */
 	public FileList(){
 		this(DEFAULT_FILE);
@@ -147,7 +147,7 @@ public class FileList extends FileComponent implements FileListener, Accessible,
 
 	/**
 	 * Construye un FileList con vista de iconos grandes pero a partir de la carpeta especificada.
-	 * @param folder La nueva carpeta de la cual se mostrará el contenido
+	 * @param folder La nueva carpeta de la cual se mostrarï¿½ el contenido
 	 */
 	public FileList(File folder){
 		this(folder, ICON_VIEW); //BRIEF_VIEW
@@ -155,7 +155,7 @@ public class FileList extends FileComponent implements FileListener, Accessible,
 
 	/**
 	 * Construye un FileList con una vista y una carpeta especificadas.
-	 * @param folder La nueva carpeta de la cual se mostrará el contenido.
+	 * @param folder La nueva carpeta de la cual se mostrarï¿½ el contenido.
 	 * @param viewType El tipo de vista. Los valores posibles son ICON_VIEW, BRIEF_VIEW y DETAILED_VIEW.
 	 */
 	public FileList(File folder, int viewType){
@@ -346,11 +346,11 @@ public class FileList extends FileComponent implements FileListener, Accessible,
 	}
 
 	/**
-	 * Cambia la carpeta de la cual se está visualizando su contenido. Esta operación hace
-	 * que se refresque la pantalla. Este método no lanza el <i>fireChangeListener</i>
+	 * Cambia la carpeta de la cual se estï¿½ visualizando su contenido. Esta operaciï¿½n hace
+	 * que se refresque la pantalla. Este mï¿½todo no lanza el <i>fireChangeListener</i>
 	 * @param folder La nueva carpeta a visualizar su contenido.
-	 * @param back Si es true la carpeta antigua se añadirá a la pila de vuelta atras.
-	 * @param back false en el caso de la función setBack, ya que no se quiere que esta acción se añada en la pila de marcha atras.
+	 * @param back Si es true la carpeta antigua se aï¿½adirï¿½ a la pila de vuelta atras.
+	 * @param back false en el caso de la funciï¿½n setBack, ya que no se quiere que esta acciï¿½n se aï¿½ada en la pila de marcha atras.
 	 */
 	private void setFolder(File folder, boolean back, boolean fireEvent){
 		if (this.folder != null){
@@ -364,7 +364,7 @@ public class FileList extends FileComponent implements FileListener, Accessible,
 	}
 
 	/**
-	 * Cambia la carpeta de la cual se está visualizando el contenido. A su vez
+	 * Cambia la carpeta de la cual se estï¿½ visualizando el contenido. A su vez
 	 * hace que se refresque el contenido de la pantalla.
 	 * Throws the <i>fireChangeListener</i>.
 	 * @param folder La nueva carpeta a visualizar su contenido.
@@ -467,8 +467,8 @@ public class FileList extends FileComponent implements FileListener, Accessible,
 	}
 
 	/**
-	 * Devuleve la carpeta de la cual se está visualizando su contenido.
-	 * @return la carpeta de la cual se está visualizando el contenido.
+	 * Devuleve la carpeta de la cual se estï¿½ visualizando su contenido.
+	 * @return la carpeta de la cual se estï¿½ visualizando el contenido.
 	 */
 	public File getFolder(){
 		return folder;
@@ -477,7 +477,7 @@ public class FileList extends FileComponent implements FileListener, Accessible,
 	/**
 	 * Cambia el tipo de vista del contenido de la carpeta actual. Refresca la pantalla.
 	 * Los valores posibles son ICON_VIEW, BRIEF_VIEW o DETAILED_VIEW.
-	 * @param viewType El modo de visualización que se quiere poner.
+	 * @param viewType El modo de visualizaciï¿½n que se quiere poner.
 	 */
 	public void setViewType(int viewType){
 		if (this.viewType != viewType) {
@@ -488,16 +488,16 @@ public class FileList extends FileComponent implements FileListener, Accessible,
 
 	/**
 	 * Devuleve el tipo de vista actual. Los valores posibles son ICON_VIEW, BRIEF_VIEW o DETAILED_VIEW.
-	 * @return El modo de visualización actual.
+	 * @return El modo de visualizaciï¿½n actual.
 	 */
 	public int getViewType(){
 		return viewType;
 	}
 
 	/**
-	 * Cambia el tipo de ordenación del contenido de la carpeta actual. Refresca la pantalla.
+	 * Cambia el tipo de ordenaciï¿½n del contenido de la carpeta actual. Refresca la pantalla.
 	 * Los posibles son ORDER_BY_NAME, ORDER_BY_SIZE u ORDER_BY_DATE.
-	 * @param orderBy El modo de ordenación que se quiere poner.
+	 * @param orderBy El modo de ordenaciï¿½n que se quiere poner.
 	 */
 	public void setOrderBy(int orderBy){
 		if (this.orderBy != orderBy) {
@@ -507,17 +507,17 @@ public class FileList extends FileComponent implements FileListener, Accessible,
 	}
 
 	/**
-	 * Devuleve el tipo ordenación. Los posibles son ORDER_BY_NAME, ORDER_BY_SIZE u ORDER_BY_DATE.
-	 * @return true si la ordenación se hace inversamente.
+	 * Devuleve el tipo ordenaciï¿½n. Los posibles son ORDER_BY_NAME, ORDER_BY_SIZE u ORDER_BY_DATE.
+	 * @return true si la ordenaciï¿½n se hace inversamente.
 	 */
 	public int getOrderBy(){
 		return orderBy;
 	}
 
 	/**
-	 * Cambia el tipo de ordenación del contenido de la carpeta actual. Refresca la pantalla.
-	 * @param orderBy El modo de ordenación que se quiere poner. Los posibles son ORDER_BY_NAME, ORDER_BY_SIZE u ORDER_BY_DATE.
-	 * @param inverse será verdadero si la ordenación se ha de invertir.
+	 * Cambia el tipo de ordenaciï¿½n del contenido de la carpeta actual. Refresca la pantalla.
+	 * @param orderBy El modo de ordenaciï¿½n que se quiere poner. Los posibles son ORDER_BY_NAME, ORDER_BY_SIZE u ORDER_BY_DATE.
+	 * @param inverse serï¿½ verdadero si la ordenaciï¿½n se ha de invertir.
 	 */
 	public void setOrderBy(int orderBy, boolean inverse){
 		if (this.orderBy != orderBy || this.inverse != inverse){
@@ -528,8 +528,8 @@ public class FileList extends FileComponent implements FileListener, Accessible,
 	}
 
 	/**
-	 * Cambia la ordenación, para que sea inversa o no.
-	 * @param inverse verdadero para que la ordenación se invierta.
+	 * Cambia la ordenaciï¿½n, para que sea inversa o no.
+	 * @param inverse verdadero para que la ordenaciï¿½n se invierta.
 	 */
 	 public void setInverse(boolean inverse){
 		if (this.inverse != inverse){
@@ -701,9 +701,9 @@ public class FileList extends FileComponent implements FileListener, Accessible,
 	}
 
 	/**
-	 * Refresca el contenido de la pantalla. Mostrará el contenido de la carpeta actual
-	 * con el tipo de vista y la ordenación actuales.
-	 * @param clearSelectionModel si es <i>true</i> limpia la selección de ficheros
+	 * Refresca el contenido de la pantalla. Mostrarï¿½ el contenido de la carpeta actual
+	 * con el tipo de vista y la ordenaciï¿½n actuales.
+	 * @param clearSelectionModel si es <i>true</i> limpia la selecciï¿½n de ficheros
 	 * @param fireEvent if it's true then the ChangeListener event will be throw (no the ContentChangeListener).
 	 */
 	public void refresh(boolean clearSelectionModel, boolean fireEvent){
@@ -799,7 +799,7 @@ public class FileList extends FileComponent implements FileListener, Accessible,
 	}
 
 	/**
-	 * Selecciona todos los ficheros que se están mostrando en la actualidad.
+	 * Selecciona todos los ficheros que se estï¿½n mostrando en la actualidad.
 	 */
 	public void selectAll(){
 		//FileView[] fileViews = (FileView[])getComponents();

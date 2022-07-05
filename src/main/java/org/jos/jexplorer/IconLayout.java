@@ -1,6 +1,6 @@
 /*
  * IconLayout.java - 
- * Copyright (C) 2000-2001 Iñigo González
+ * Copyright (C) 2000-2001 Inigo Gonzalez
  * sensei@hispavista.com
  * http://www.geocities.com/innigo.geo
  *
@@ -25,7 +25,7 @@ import javax.swing.*;
 
 /**
  * Implementa el modo de colocar los ficheros cuando estos se representa mediante iconos grandes.
- * Este <i>layout</i> está creado para soportar un container con un JScrollPane.
+ * Este <i>layout</i> esta creado para soportar un container con un JScrollPane.
  * Inplements the way to alocate the files when those are represented by big icons.
  */
 class IconLayout implements FileListLayoutManager{
@@ -56,14 +56,14 @@ class IconLayout implements FileListLayoutManager{
 	private int cols;
 
 	/**
-	 * El viewPort con el que se trabaja. Esto se hace aquí por que este layout es para 
+	 * El viewPort con el que se trabaja. Esto se hace aquï¿½ por que este layout es para 
 	 * componentes que se encuentran dentro de un JScrollPane.
 	 */
 	private JViewport view;
 
 	/**
 	 * Construye el <i>layout</i> con los valores por defecto. Estos valores son: 
-	 * cero de separación tanto vertical como horizontal y 80 el tamaño tanto
+	 * cero de separacion tanto vertical como horizontal y 80 el tamaro tanto
 	 * a lo ancho como a lo largo de los iconos.
 	 * Construt the layout with the defaults values. This values are: no space
 	 * between files horizontally or vertically and a widht and a height of 80.
@@ -74,26 +74,26 @@ class IconLayout implements FileListLayoutManager{
 
 	/**
 	 * Construye el <i>layout</i> con el espacio entre iconos especificado
-	 * por los parámetros de entrada. El resto de valores serán los determinados por defecto.
+	 * por los parametros de entrada. El resto de valores seron los determinados por defecto.
 	 * @param hgap El espacio horizontal entre los ficheros.
 	 * @param vgap El espacio vertical entre los ficheros.
 	 * Construct the layout with the columns and the space between files specified by the params.
 	 * The rest of values will have the default.
 	 * @param hgap The horizonal space between the files.
 	 * @param hgap The vertical space between the files.
- 	 * @param view el viewport donde se está mostrando el componente.
+ 	 * @param view el viewport donde se esta mostrando el componente.
 	 */
 	public IconLayout(int hgap, int vgap, JViewport view){
 		this(hgap, vgap, 80, 80, view);
 	}
 
 	/**
-	 * Construye el <i>layout</i> con todos los valores especificados por los parámetros.
+	 * Construye el <i>layout</i> con todos los valores especificados por los parametros.
 	 * @param hgap El espacio horizontal entre los ficheros.
 	 * @param vgap El espacio vertical entre los ficheros.
-	 * @param width La anchura de la representación de los ficheros.
-	 * @param height La altura de la representación de los ficheros.
-	 * @param view el viewport donde se está mostrando el componente.
+	 * @param width La anchura de la representacion de los ficheros.
+	 * @param height La altura de la representacion de los ficheros.
+	 * @param view el viewport donde se esto mostrando el componente.
 	 */
 	public IconLayout(int hgap, int vgap, int width, int height, JViewport view){
 		this.hgap = hgap;
@@ -137,9 +137,9 @@ class IconLayout implements FileListLayoutManager{
 	}
 
 	/**
-	 * Devuelve el tamaño mínimo necesario para colocar los componentes contenidos en el control especificado.
+	 * Devuelve el tamaro minimo necesario para colocar los componentes contenidos en el control especificado.
 	 * @param target El componentes el cual necesita ser colocado (sus contenidos).
-	 * @param returns El tamaño mínimo necesario para colocar los subcomponentes del contenedor especificado.
+	 * @param returns El tamaro minimo necesario para colocar los subcomponentes del contenedor especificado.
 	 * Returns the minimum dimensions needed to layout the components contained in the specified
 	 * target container.
 	 * @param target the component which needs to be laid out.
@@ -150,9 +150,9 @@ class IconLayout implements FileListLayoutManager{
 	}
 
 	/**
-	 * Devuelve el tamaño preferido para colocar los subcomponentes del componente especificado.
+	 * Devuelve el tamaro preferido para colocar los subcomponentes del componente especificado.
 	 * @param target El contenedor que necesita ser recolocado (sus contenidos).
-	 * @return el tamaño preferido para colocar los subcomponentes del componente especificado.
+	 * @return el tamaro preferido para colocar los subcomponentes del componente especificado.
 	 * Retuen the preferred size to lay out all the componentes contained in the specified target container.
 	 * @param target The component which needed to be lay out.
  	 * @return the preferred dimensions to lay out the subcomponents of the specified container.

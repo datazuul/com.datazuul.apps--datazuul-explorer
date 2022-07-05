@@ -1,6 +1,6 @@
 /*
  * BriefFileView - 
- * Copyright (C) 2000 Iñigo González
+ * Copyright (C) 2000 Inigo Gonzalez
  * sensei@hispavista.com
  * http://www.geocities.com/innigo.geo
  *

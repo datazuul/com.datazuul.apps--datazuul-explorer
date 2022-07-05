@@ -1,6 +1,6 @@
 /*
  * FileListSelection.java - Clipboard owner for file list.
- * Copyright (C) 2001 Iñigo González
+ * Copyright (C) 2001 Inigo Gonzalez
  * sensei@hispavista.com
  * http://www.geocities.com/innigo.geo
  *
